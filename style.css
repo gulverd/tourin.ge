@@ -1,0 +1,646 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #F7F5F5;
+}
+#main_wrapper{
+	margin: 0;
+	padding: 0;
+}
+#header_wrapper{
+	margin: 0;
+	padding: 0;
+}
+#main_menu_wrapper{
+	margin: 0;
+	padding: 0;
+}
+.navbar-brand {
+	margin-top: 5px;
+}
+@font-face{
+	font-family: bpg_mrgvlovani_caps_2010;
+	src: url(fonts/bpg_mrgvlovani_caps_2010.ttf);
+}
+@font-face{
+	font-family: Taurus-Mono-Outline-Regular;
+	src: url(fonts/Taurus-Mono-Outline-Regular.otf);
+}
+@font-face{
+	font-family: Taurus-Mono-Outline-Bold;
+	src: url(fonts/Taurus-Mono-Outline-Bold.otf);
+}
+
+.navbar {
+	border-radius: 0px;
+	margin-bottom: 0px;
+	background-color:#F7F5F5;
+	color:black;
+}
+.navbar-nav li a {
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 9pt;
+	margin-top: 5px;
+	color:#444;
+}
+#social_icons{
+	font-size: 12pt;
+	margin-top: 6px;
+}
+#carousel_wrapper{
+	margin: 0;
+	padding: 0;
+}
+#carousel_image{
+	width: 100%;
+	max-height: 500px;
+}
+#middle_content_header{
+	margin:0;
+	padding: 0;
+	text-align: center;
+	margin-top: 30px;
+}
+#middle_content_header h2{
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 27px;
+	color: #444;
+}
+#middle_content_header h4 a{
+	font-family: bpg_mrgvlovani_caps_2010;
+	text-decoration: underline;
+	color:#444;
+}
+#middle_content_cont{
+	padding: 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: bpg_mrgvlovani_caps_2010;
+}
+#middle_content_cont a{
+	color: #444;
+}
+#main_cont_box_wrapper{
+	border:1px solid #ccc;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+	background-color: white;
+}
+#main_cont_pic_wrapper{
+	padding: 0;
+	margin-bottom: 3px;
+	min-height: 100px;
+}
+#main_cont_pic{
+	height: 200px;
+	width: 100%;
+}
+#middle_container{
+	padding: 0px;
+}
+#main_cont_title_wrapper{
+	padding: 0;
+	margin: 0;
+	margin-bottom: 3px;
+	text-align: center;
+}
+#main_cont_title_wrapper h3{
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 12px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#main_cont_short_description_wrapper{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+#main_cont_short_description_wrapper h3{
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 10px;
+	color:#444;
+	font-weight: 500;
+	margin: 0;
+}
+#main_cont_date_adn_price_wrapper{
+	margin: 0;
+	padding: 0;
+}
+#main_cont_date_wrapper{
+
+	vertical-align: middle;
+	text-align: center;
+	padding-left: 5px;
+}
+#main_cont_date_wrapper h4{
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 10px;
+	color:#444;
+}
+#main_cont_price_wrapper{
+	padding: 0;
+	margin: 0;
+	min-height: 30px;
+	text-align: center;
+}
+#main_cont_price_wrapper h4{
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 9pt;
+	color:#FF2905;
+	font-weight: 700;
+}
+#flag_img{
+	width: 25px;
+	height: 25px;
+	border-radius: 15px;
+	border:1px solid #ccc;
+	opacity: 0.5;
+}
+#dropdown_flag{
+	min-width: 70px;
+}
+#footer_wrapper{
+	padding: 0;
+	margin: 0;
+	background-color: #171717;
+	color:white;
+	border-top:3px solid #A90808;
+}
+#footer_container{
+	text-align: left;
+	font-size: 10pt;
+}
+#footer_container h4{
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 10pt;
+	color:#ccc;
+}
+#footer_container h4 a{
+	color:#ccc;
+	font-size: 10pt;
+}
+#news_box_wrapper{
+	border:1px solid #ccc;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+	background-color: white;
+}
+#news_pic_wrapper{
+	padding: 0;
+	margin: 0;
+	margin-bottom: 15px;
+}
+#news_pic{
+	width: 100%;
+	height: 282px;
+}
+#news_location_and_date_wrapper{
+	margin: 0;
+	padding: 0;
+}
+#news_location_wrapper{
+	margin: 0;
+	padding: 0;	
+	text-align: center;
+}
+#news_location_wrapper h3{
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 14px;
+}
+#news_date_wrapper{
+	margin: 0;
+	padding: 0;	
+	text-align: center;
+}
+#news_date_wrapper h3{
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 14px;
+}
+#news_title_wrapper{
+	margin: 0;
+	padding: 0;	
+	text-align: center;	
+}
+#news_title_wrapper h2{
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 26px;
+}
+#events_a{
+	color:#EF0202;
+}
+#tours_tbl_wrapper{
+	padding: 8px;
+}
+#tbl{
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 12px;
+}
+#tours_sel_wrapper{
+	padding: 10;
+}
+#resi_bott{
+	padding: 0;
+	margin: 0;
+
+}
+#main_cont_wrapper{
+	padding: 2px;
+}
+#res_bottom_left{
+	padding: 0;
+	padding-right: 10px;
+}
+#res_bottom_right{
+	padding: 0;
+	padding-left: 10px;
+}
+#res_submit_wrapper{
+	margin-top: 20px;
+}
+#main_submit{
+	width: 100%;
+}
+#middle_reservation_cont{
+	margin:3px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: bpg_mrgvlovani_caps_2010;
+	padding-bottom:20px;
+	border:1px solid #ccc;
+	padding-top: 15px;
+}
+#tours_pic_wrapper{
+	padding: 0;
+}
+#tours_pic{
+	width: 100%;
+	height: 202px;
+}
+#tours_right_wrapper{
+	padding: 0;
+	margin: 0;
+}
+#tours_left_in_wrapper{
+	padding: 0;
+	margin: 0;
+}
+#tours_right_in_wrapper{
+	vertical-align: middle;
+	text-align: center;
+}
+#tours_right_in_wrapper h4{
+	margin-top: 90px;
+	font-family: bpg_mrgvlovani_caps_2010;
+	color:#FF2905;
+}
+#tours_in_title{
+	padding: 0;
+	margin: 0;
+}
+#tours_in_title h2{
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 21px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+#tours_in_description{
+	padding: 0;
+	margin:0;
+	min-height: 125px;
+}
+#tours_in_description h4{
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 14px;
+	margin-left: 15px;
+	margin-top: 10px;		
+}
+#tours_in_date{
+	padding: 0;
+	margin: 0;
+}
+#tours_in_date h4{
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 13px;
+	margin-left: 15px;
+}
+#left_events_title_wrapper{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+#left_events_title_wrapper h3{
+	font-family: bpg_mrgvlovani_caps_2010;
+	margin-top:5px;
+	font-size: 21px;
+}
+#left_events_wrapper{
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+#event_pic_left{
+	width: 100%;
+}
+#left_events_main_wrapper{
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	border:1px solid #ccc;
+}
+#left_events_name_wrapper{
+	font-family: bpg_mrgvlovani_caps_2010;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 500;
+}
+#left_events_date_wrapper{
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 12px;
+	text-align: center;
+}
+#middle_reservation_cont_in{
+    font-family: bpg_mrgvlovani_caps_2010;
+    padding-bottom: 20px;
+    border: 1px solid #ccc;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+#login_cont{	
+	margin-top:150px;
+}
+#login_wrp{
+	padding: 20px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+}
+#login_wrapper_all{
+	height: 100%;
+    background-image: url("..//img/world_light.png");
+}
+#hd_admin{
+	padding: 0px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	border-bottom:2px solid rgb(213, 22, 10);
+	text-align: left;
+}
+#hd_admin h3{
+	font-family: bpg_mrgvlovani_caps_2010; 
+	font-size: 14pt;
+	text-align: left;	
+}
+#hd_admin h4{
+	font-family: bpg_mrgvlovani_caps_2010; 
+	font-size: 11pt;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#table_adm{
+	font-family: bpg_mrgvlovani_caps_2010; 
+	font-size: 10pt;	
+}
+#edit a{
+	color:rgb(212, 22, 10);
+}
+#main_contia_wrappers{
+	background-color: white;
+	font-family: bpg_mrgvlovani_caps_2010; 
+	padding: 10px;
+	padding-bottom: 30px;
+}
+#plus{
+	color:green;
+	font-family: bpg_mrgvlovani_caps_2010; 
+	font-size: 15pt;
+	font-weight: 700;
+}
+#minus{
+	color:#EA2222;
+	font-family: bpg_mrgvlovani_caps_2010; 
+	font-size: 15pt;
+	font-weight: 700;
+}
+#suggested_title{
+	padding: 0;
+	margin-top: 20px;
+	text-align: left;
+	font-family: bpg_mrgvlovani_caps_2010; 
+}
+#inside_tour_main_wrapper{
+	padding: 0;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#inside_tour_name_wrapper{
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+#inside_tour_name_wrapper h3{
+	font-family: bpg_mrgvlovani_caps_2010; 
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#inside_tour_left_wrapper{
+	background-color: white;
+	margin-top: 10px;
+}
+#inside_tour_right_wrapper{
+	background-color: white;
+	margin-top: 10px;
+	padding-top: 26px;
+}
+#tour_right_pannels{
+	border-bottom: 1px solid #F7F7F7; 
+	padding-left: 0;
+}
+#tour_right_pannels h4{	
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 13px;
+}
+#tour_in_main{
+	width: 100%;
+	margin-top: 33px;
+	margin-bottom: 5px;
+	border: 1px solid #ccc;
+}
+#tour_in_description{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 5px;
+	font-family: bpg_mrgvlovani_caps_2010;
+	color:#444;
+	font-size: 13px;
+}
+#tour_in_price_span{
+	color:#FF2905;
+}
+#tour_right_button_wrapper{
+	margin-top: 15px;
+	margin-bottom: 10px;
+
+}
+#tour_in_book_button{
+	width: 100%;
+	font-family: bpg_mrgvlovani_caps_2010;
+}
+#tour_right_contact_wrapper{
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: bpg_mrgvlovani_caps_2010;
+}
+#tour_right_contact_title_wrapper{
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #F7F7F7; 
+}
+#tour_right_contact_title_wrapper h4{
+	margin-left: 0px;
+}
+#tour_right_contact_pannels_wrapper{
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 16px;
+	border-bottom: 1px solid #F7F7F7; 
+	margin-bottom: 10px;
+}
+#tour_right_contact_pannels_wrapper a{
+	color:black;
+}
+#tour_right_contact_pannels_span_mobile{
+	color:#F5830B;
+}
+#tour_right_contact_pannels_span_mail{
+	color:#555;
+}
+#booking_tour_main_wrapper{
+	border: 1px solid #ccc;
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	margin-left: 18px;
+	margin-right: 18px;
+	font-family: bpg_mrgvlovani_caps_2010;
+}
+#booking_inputs_wrapper{
+	margin-top: 10px;
+}
+#booking_span{
+	color: #198419;
+}
+#bookkng_date_wrapper{
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+#boking_title_wrapper{
+	text-align: center;
+}
+#booking_contact_wrapper{
+	text-align: center;
+}
+#booking_contact_wrapper h4 a{
+	font-size: 17px;
+	color:#444;
+}
+#tourin_price{
+	font-size: 17px;
+}
+#conact_cont_wrapper{
+	font-family: bpg_mrgvlovani_caps_2010;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+#contact_inputs_wrapper{
+	margin-top: 10px;
+}
+#contact_title{
+	text-align: center;
+}
+#contact_socials_wrapper{
+	text-align: left;
+	margin-bottom: 10px;
+
+}
+#contact_socials_wrapper a{
+	color:#444;
+}
+#booking_right_pannels{
+	margin-top: 15px;
+	border-bottom: 1px solid #ccc;
+}
+#booking_right_pannels a{
+	color:#444;
+}
+#admin_personal_wrapper{
+	font-family: bpg_mrgvlovani_caps_2010;
+	padding: 0;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+#admin_personal_table_wrapper{
+	margin: 0;
+	padding: 0;
+}
+#admin_personal_title_wrapper{
+	padding: 0;
+	margin: 0;
+	text-align:left;
+}
+#admin_personal_but_wrapper{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#admin_personal_but_wrapper a{
+	color:#444;
+}
+#personal_booking_wrapper{
+	margin-top: 50px;
+	font-family: bpg_mrgvlovani_caps_2010;
+}
+#fgroup_wrp{
+	margin-bottom: 20px;
+}
+#button_in_admin_georia{
+	width: 100%;
+	height: 60px;
+}
+#td_georgia_signs{
+	text-align: center;
+}
+#route_tour_in{
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+#wiki_link_wrapper{
+	text-align: left;
+}
+#img_inside_region{
+	width: 100%;
+	height: 500px;
+}
+#tour_in_carousel_wrapper{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 500px;
+}
+#men_rus_but li a{
+	font-size: 11pt;
+}
+#logo_font{
+	font-family: Taurus-Mono-Outline-Bold;
+	font-size: 18pt;
+}
+#logo_i{
+	font-family: Taurus-Mono-Outline-Bold;
+	color:#EF0202;
+	font-size: 18pt;
+}
